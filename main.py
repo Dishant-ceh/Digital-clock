@@ -21,3 +21,4 @@ def update_label():
 
 update_label()
 window.mainloop()
+"this program create by https.dishant.ceh"
