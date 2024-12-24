@@ -3,14 +3,14 @@ from tkinter import Label, Tk
 
 window = Tk()
 window.title("Digital Clock")
-window.geometry("300x100")
+window.geometry("1000x400")
 window.configure(bg="green")
 window.resizable(False, False) 
 
 clock_label = Label(
-    window, bg="black", fg="green", font=("Arial", 30, "bold"), relief="flat"
+    window, bg="black", fg="white", font=("Arial", 135, "bold"), relief="flat"
 )
-clock_label.place(x=50, y=50)
+clock_label.place(x=100, y=100)
 
 
 def update_label():
@@ -21,4 +21,3 @@ def update_label():
 
 update_label()
 window.mainloop()
-"this program create by https.dishant.ceh"
